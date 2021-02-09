@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main, .content {
+    margin: 0 auto;
+    position: relative;
+}
+
+.Header2 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.menu-urls{
+    height: 70px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display:inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 40px;
+}
+.menu ul li:hover{
+  border-bottom: 3px solid #860000;
+}
+.menu ul li a:hover {
+    color: #860000;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu {
+    float: left;
+}
